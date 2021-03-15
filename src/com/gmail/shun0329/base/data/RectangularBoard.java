@@ -30,7 +30,6 @@ public final class RectangularBoard<T> implements Board<T> {
 	}
 	
 	@Override
-	public Iterator<Line<T>> iterator() {
-		return board.iterator();
+	public Iterator<Iterable<T>> iterator() {
 	}
 }
